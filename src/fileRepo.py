@@ -1,7 +1,7 @@
 from point import Point
 
 class FileRepo:
-    def transformDataToCSV(points: list[Point], temps: list[int], savePath:str):
+    def transformDataToCSV(self, points: list[Point], temps: list[int], savePath:str):
         try:
             with open(savePath, "w") as saveFile:
                 saveFile.write("temps;positionX;positionY\n");

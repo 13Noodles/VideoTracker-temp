@@ -21,7 +21,7 @@ class Model:
     def getPointCount(self) -> int:
         return len(self.__points)
 
-    def addPoint(self, x: int, y: int, t: int) -> None:
+    def addPoint(self, x: float, y: float, t: int) -> None:
         self.__points.append(Point(x,y))
         self.__temps.append(t)
 

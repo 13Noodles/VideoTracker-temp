@@ -18,7 +18,10 @@ class Model:
             return None
         return self.__points[pointId]
 
-    def exportToCSV(self, filename: str):
+    def exportToCSV(self, filename: str) -> int:
         savePath = self.__saveDir+"/"+filename
-        self.fileRepo.transformDataToCSV(self.__points,self.__temps,savePath)
-
+        saveState = self.fileRepo.transformDataToCSV(self.__points,self.__temps,savePath)
+        if(saveState == -1):
+            print(f"Data export failed (saveDir:{self.__saveDir}, filename:{filename})")
+            return -1
+        return 0

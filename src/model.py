@@ -17,6 +17,9 @@ class Model:
         if(tempsId<0 or tempsId>len(self.__temps)-1):
             return None
         return self.__temps[tempsId]
+    
+    def getPointCount(self) -> int:
+        return len(self.__points)
 
     def addPoint(self, x: int, y: int, t: int) -> None:
         self.__points.append(Point(x,y))
@@ -29,3 +32,4 @@ class Model:
             print(f"Data export failed (saveDir:{self.__saveDir}, filename:{filename})")
             return -1
         return 0
+

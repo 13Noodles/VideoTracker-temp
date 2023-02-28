@@ -16,7 +16,7 @@ class Model:
     def getTemps(self, tempsId: int) -> int:
         if(tempsId<0 or tempsId>len(self.__temps)-1):
             return None
-        return self.__points[pointId]
+        return self.__temps[tempsId]
 
     def addPoint(self, x: int, y: int, t: int) -> None:
         self.__points.append(Point(x,y))

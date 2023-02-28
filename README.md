@@ -1,4 +1,4 @@
-# Initiation au Développement Logiciel - VideoTracker, rendu n°1
+# Initiation au Développement Logiciel - VideoTracker, rendu n°1 (Houalet Nathan)
 
 ## Consignes (moodle):
 Pour ce premier rendu vous devez joindre les documents suivants dans une archive au format zip[^1] :

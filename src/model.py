@@ -18,6 +18,10 @@ class Model:
             return None
         return self.__points[pointId]
 
+    def addPoint(self, x: int, y: int, t: int) -> None:
+        self.__points.append(Point(x,y))
+        self.__temps.append(t)
+
     def exportToCSV(self, filename: str) -> int:
         savePath = self.__saveDir+"/"+filename
         saveState = self.fileRepo.transformDataToCSV(self.__points,self.__temps,savePath)

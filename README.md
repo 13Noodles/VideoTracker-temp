@@ -7,4 +7,11 @@ Pour ce premier rendu vous devez joindre les documents suivants dans une archive
 - Les fichiers python des classes Point et FileRepo.
 - Le fichier test.py.
 
+## Tester le code
+Il faut juste lancer `src/test.py` avec python
+
+- Les fichiers générés pendant le test seront dans le dossier `testData` (il est créé dans le même dossier d'où `test.py` à été lancé)
+
+- Les seules librairies qui sont importées sont celles qui sont préinstallées par python (`os` et `random`)
+
 [^1]: Au dernier cours Mr Casseau nous a dit que l'on pouvait vous envoyer le lien d'un repo' github si on voulait.

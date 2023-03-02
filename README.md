@@ -1,5 +1,11 @@
 # Initiation au Développement Logiciel - VideoTracker, rendu n°1 (Houalet Nathan)
+
 [lien du repo'](https://github.com/13Noodles/VideoTracker-temp/)
+
+Je vous ai demandé pendant le TD si je pouvait modifier l'erreur qui était pas détecté sur mon PC perso
+
+_(À la base j'avais rendu le travail le mercredi 1er mars à 14:39 donc toutes les modiffications après sont que des fix/correction de typo)_
+
 
 ## Consignes (moodle):
 Pour ce premier rendu vous devez joindre les documents suivants dans une archive au format zip[^1] :

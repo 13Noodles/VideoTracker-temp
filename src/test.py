@@ -4,7 +4,7 @@ from point import Point
 from model import Model
 
 
-def randomPoints(n: int) -> list[Point]:
+def randomPoints(n: int) -> list:
     x_range = [-10.0,20.0]
     y_range = [-10.0,20.0]
     points = []

@@ -2,7 +2,7 @@ import os
 from point import Point
 
 class FileRepo:
-    def transformDataToCSV(self, points: list[Point], temps: list[int], savePath:str) -> int:
+    def transformDataToCSV(self, points: list, temps: list, savePath:str) -> int:
         try:
             # découpe savePath pour ne garder que le chemin des dossiers
             # et créer les dossiers necessaires si possible quand le chemin est invalide

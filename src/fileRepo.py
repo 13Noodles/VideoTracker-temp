@@ -11,7 +11,7 @@ class FileRepo:
                 os.makedirs(dirsPath)
             
             with open(savePath, "w") as saveFile:
-                saveFile.write("temps;positionX;positionY\n");
+                saveFile.write("temps;positionX;positionY\n")
                 for dataId in range(len(points)):
                     saveFile.write(f"{temps[dataId]};{points[dataId].getX()};{points[dataId].getY()}\n")
             return 0

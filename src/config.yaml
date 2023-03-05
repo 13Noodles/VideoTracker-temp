@@ -1,0 +1,62 @@
+windowName: "VideoTracker - View & fileSave toast"
+
+exportDefaults:
+  defaultDirectory: "saves"
+  defaultFilename: "data"
+  defaultAllowOverwrite: true
+  defaultSortColumn: 0
+  defaultSeparator: ";"
+
+
+
+languagesSupported:
+ - "fr"
+ - "en"
+
+defaultLang: "en"
+
+
+
+viewTexts:
+  fr:
+    exportButton: "exporter"
+    exportLabel: "nom du fichier exporté:"
+    addPointButton: "Ajouter point aléatoire"
+    langFrenchButton: "Francais"
+    langEnglishButton: "Anglais"
+    separatorSwitchButton: "Changer separateur CSV"
+  en:
+    exportButton: "export"
+    exportLabel: "export filename :"
+    addPointButton: "Add random point"
+    langFrenchButton: "French"
+    langEnglishButton: "English"
+    separatorSwitchButton: "Change CSV separator"
+
+
+
+messages:
+  fr:
+    exportSuccess: "Sauvegarde réussie, fichier sauvegardé vers\n"
+    exportErrorOverwrite: "Sauvegarde échoué,\n le fichier existe deja"
+    exportErrorUnknown: "Sauvegarde échoué"
+    addPoint: "Point ajouté :\n"
+    separatorSwitch: "Séparateur CSV changé vers :\n"
+  en:
+    exportSuccess: "Export successful, file saved to\n"
+    exportErrorOverwrite: "Export failed,\n the file already exists"
+    exportErrorUnknown: "Export failed"
+    addPoint: "Point added :\n"
+    separatorSwitch: "CSV separator set to :\n"
+
+
+
+exportHeaders:
+    fr:
+      time: "temps"
+      posX: "positionX"
+      posY: "positionY"
+    en:
+      time: "time"
+      posX: "positionX"
+      posY: "positionY"

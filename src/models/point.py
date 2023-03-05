@@ -1,4 +1,3 @@
-
 class Point:
     def __init__(self,x:float, y:float):
         self.__x = x
@@ -9,4 +8,3 @@ class Point:
 
     def getY(self) -> float:
         return self.__y
-

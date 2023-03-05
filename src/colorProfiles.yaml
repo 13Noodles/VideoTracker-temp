@@ -1,0 +1,50 @@
+profiles:
+  dark:
+    default: true
+    name: "dark"
+    window:
+      background: "black"
+    button:
+      text: "white"
+      border: "#111"
+      background: "black"
+      backgroundOver: "darkgray"
+    label:
+      text: "white"
+      background: "black"
+    entry:
+      text: "white"
+      background: "black"
+  
+  light:
+    name: "light"
+    window:
+      background: "white"
+    button:
+      text: "black"
+      border: "gray"
+      background: "lightgray"
+      backgroundOver: "pink"
+    label:
+      text: "black"
+      background: "lightgray"
+    entry:
+      text: "black"
+      background: "lightgray"
+
+  blue:
+    name: "blueDaBaDee"
+    default: true
+    window:
+      background: "#123"
+    button:
+      text: "#ccc"
+      border: "#321"
+      background: "#456"
+      backgroundOver: "#567"
+    label:
+      text: "#ccc"
+      background: "#123"
+    entry:
+      text: "#ccc"
+      background: "#123"

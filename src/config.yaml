@@ -1,21 +1,28 @@
-windowName: "VideoTracker - View & fileSave toast"
-
 exportDefaults:
   defaultDirectory: "saves"
   defaultFilename: "data"
-  defaultAllowOverwrite: true
+  defaultAllowOverwrite: false
   defaultSortColumn: 0
   defaultSeparator: ";"
 
+pointsConfig:
+  xMin: 0
+  xMax: 100
+  yMin: 0
+  yMax: 100
+  tMin: 0
+  tMax: 1000
+  decimalPrecision: 2
 
+profilesFilePath: "colorProfiles.yaml"
+
+# gotta rework how the languages are split
 
 languagesSupported:
  - "fr"
  - "en"
 
 defaultLang: "en"
-
-
 
 viewTexts:
   fr:
@@ -25,6 +32,8 @@ viewTexts:
     langFrenchButton: "Francais"
     langEnglishButton: "Anglais"
     separatorSwitchButton: "Changer separateur CSV"
+    colorSwitch: "changer les couleurs"
+    colorProfile: "Profile couleurs: "
   en:
     exportButton: "export"
     exportLabel: "export filename :"
@@ -32,6 +41,8 @@ viewTexts:
     langFrenchButton: "French"
     langEnglishButton: "English"
     separatorSwitchButton: "Change CSV separator"
+    colorSwitch: "change colors"
+    colorProfile: "Current color profile: "
 
 
 
@@ -42,12 +53,14 @@ messages:
     exportErrorUnknown: "Sauvegarde échoué"
     addPoint: "Point ajouté :\n"
     separatorSwitch: "Séparateur CSV changé vers :\n"
+    languageChanged: "Language changé en :"
   en:
     exportSuccess: "Export successful, file saved to\n"
     exportErrorOverwrite: "Export failed,\n the file already exists"
     exportErrorUnknown: "Export failed"
     addPoint: "Point added :\n"
     separatorSwitch: "CSV separator set to :\n"
+    languageChanged: "Language set to :"
 
 
 
